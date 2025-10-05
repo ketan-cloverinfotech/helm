@@ -2,6 +2,7 @@
 ```
 # 1) login (use a PAT with read:packages, write:packages)
 helm registry login ghcr.io -u ketan-cloverinfotech --password <PAT>
+```
 # 2. create package of current 
 ```
 helm package . -d /tmp
